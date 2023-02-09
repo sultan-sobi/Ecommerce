@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is an E-commerce project create by sultan"
+    />
+    <title>E-commerce</title>
+    <!-- font aawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custome cdn -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- nav bar start from here -->
+    <li class="fas fa-bars 2X" id="menu-icon"></li>
+    <nav class="hidden" id="menu">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav-list"><a href="index.html" class="nav_link">Home</a></li>
+        <li class="nav-list">
+          <a href="register.html" class="nav_link">Register</a>
+        </li>
+
+        <li class="nav-list">
+          <a href="login.html" class="nav_link">Login</a>
+        </li>
+        <li class="nav-list">
+          <a href="index.html" class="nav_link">Logout</a>
+        </li>
+        <li class="nav-list">
+          <a href="contact.html" class="nav_link">Contact</a>
+        </li>
+
+        <li class="nav-list">
+          <a href="profile.html" class="nav_link">
+            <img
+              class="profile-icon"
+              src="images/profile.jpeg"
+              alt="profile icon"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-lower flex-space-around">
+        <li class="nav-list">
+          <a href="index.html" class="nav_link nav-brand">Sultan Express</a>
+        </li>
+
+        <li class="nav-list">
+          <a href="cart.html" class="nav_link"
+            ><span><i class="fa-solid fa-cart-shopping"></i></span> &nbsp;Cart 2
+            products -$124.40</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- nav bar end from here -->
+    <!-- footer start from here -->
+    <!-- product start here -->
+    <main class="flex-center">
+      <div class="main-content">
+        <section class="product-details flex-center">
+          <div class="product-details-left flex-center">
+            <img class="product-image" src="images/head.jpg" alt="" />
+          </div>
+
+          <div class="product-details-right">
+            <h3 class="product-name">Sony vrt:watch</h3>
+            <p>
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot red"></span>
+            </p>
+            <p class="description">
+              <strong>Description:</strong>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              eligendi! Consectetur, autem! Soluta, obcaecati lib0 Lorem ipsum,
+              dolor sit amet consectetur adipisicing elit. Maxime dignissimos
+              corporis sed sapiente optio doloremque in, nemo perspiciatis
+              commodi? Error dicta perferendis debitis iure molestias commodi
+              repellendus atque quibusdam odit.
+            </p>
+            <h4 class="product-category">Category:headphone</h4>
+            <h4 class="product-price">$5566.8990</h4>
+            <p class="product-rating">Rating:1.5</p>
+            <button class="btn product-button">Add to Cart</button>
+            <button class="btn product-button">Back to Shopping</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- product end here -->
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe to news letter</label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          placeholder="your email address"
+          class="footer_input"
+        />
+        <button class="btn btn-subscribe">subscribe</button>
+      </div>
+      <div>
+        <p>&copy;Copyright Anis Expresed 2023,All right reserved</p>
+      </div>
+    </footer>
+    <!-- footer end here -->
+    <script src="index.js"></script>
+  </body>
+</html>
